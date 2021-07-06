@@ -1,0 +1,16 @@
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\bin\Debug\net5.0\Singleton_Example.exe
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\bin\Debug\net5.0\Singleton_Example.deps.json
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\bin\Debug\net5.0\Singleton_Example.runtimeconfig.json
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\bin\Debug\net5.0\Singleton_Example.runtimeconfig.dev.json
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\bin\Debug\net5.0\Singleton_Example.dll
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\bin\Debug\net5.0\ref\Singleton_Example.dll
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\bin\Debug\net5.0\Singleton_Example.pdb
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\obj\Debug\net5.0\Singleton_Example.csprojAssemblyReference.cache
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\obj\Debug\net5.0\Singleton_Example.GeneratedMSBuildEditorConfig.editorconfig
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\obj\Debug\net5.0\Singleton_Example.AssemblyInfoInputs.cache
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\obj\Debug\net5.0\Singleton_Example.AssemblyInfo.cs
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\obj\Debug\net5.0\Singleton_Example.csproj.CoreCompileInputs.cache
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\obj\Debug\net5.0\Singleton_Example.dll
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\obj\Debug\net5.0\ref\Singleton_Example.dll
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\obj\Debug\net5.0\Singleton_Example.pdb
+D:\BLOG\Blog\Singleton\Singleton_Example\Singleton_Example\obj\Debug\net5.0\Singleton_Example.genruntimeconfig.cache

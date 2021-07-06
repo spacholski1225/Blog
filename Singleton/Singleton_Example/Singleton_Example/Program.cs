@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Singleton_Example
 {
@@ -6,7 +7,20 @@ namespace Singleton_Example
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new Thread(() =>
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    Logger.getLogger();
+                }
+            }).Start();
+            new Thread(() =>
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    Logger.getLogger();
+                }
+            }).Start();
         }
     }
 }
