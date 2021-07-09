@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoMapper_Example.Data;
+using System;
 
 namespace AutoMapper_Example
 {
@@ -6,7 +7,16 @@ namespace AutoMapper_Example
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var user = new User
+            {
+                FirstName = "d",
+                LastName = "s",
+                City = "dd"
+            };
+            var mapper = new AutoMapperConfig();
+            var dto = mapper.MapUserToUserDto(user);
+            Console.WriteLine(dto.FirstName);
+            Console.WriteLine(dto.LastName);
         }
     }
 }
