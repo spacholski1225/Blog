@@ -7,15 +7,16 @@ namespace AutoMapper_Example
     {
         static void Main(string[] args)
         {
+            var mapper = new AutoMapperConfig();
             var user = new User
             {
-                FirstName = "d",
-                LastName = "s",
-                City = "dd"
+                FirstName = "Imie",
+                LastName = "Nazwisko",
+                City = "Miasto",
+                Adress = "Adres"
             };
-            var mapper = new AutoMapperConfig();
             var dto = mapper.MapUserToUserDto(user);
-            Console.WriteLine(dto.FirstName);
+            Console.WriteLine(dto.Name);
             Console.WriteLine(dto.LastName);
         }
     }

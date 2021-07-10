@@ -10,7 +10,8 @@ namespace AutoMapper_Example.Data
         {
             _mapper = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<User, UserDto>().ReverseMap();
+                cfg.CreateMap<User, UserDto>().ForMember(x=> x.Name, x => x.MapFrom(y => y.FirstName)).ReverseMap();
+
             }).CreateMapper();
         }
         public UserDto MapUserToUserDto(User user)
